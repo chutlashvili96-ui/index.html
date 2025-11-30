@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giorgi Chutlashvili - CV</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+        }
+
+        .cv-container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            margin: 0;
+            color: #2d2d2d;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #5a5a5a;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #4a4a4a;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: "";
+            width: 60px;
+            height: 4px;
+            background: #2575fc;
+            display: block;
+            border-radius: 2px;
+            margin-top: 6px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+            color: #333;
+        }
+
+        .about {
+            line-height: 1.7;
+            color: #444;
+        }
+
+        .contact-box {
+            background: #f1f5ff;
+            padding: 15px 20px;
+            border-left: 5px solid #2575fc;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .contact-box p {
+            margin: 6px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+
+        <div class="header">
+            <h1>Giorgi Chutlashvili</h1>
+            <p>Student – Web Development</p>
+        </div>
+
+        <div class="contact-box">
+            <p><strong>Email:</strong> chutlashvili96@gmail.com</p>
+            <p><strong>Phone:</strong> 598 320 172</p>
+            <p><strong>Location:</strong> Tbilisi, Georgia</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML / CSS</li>
+                <li>GitHub & GitHub Pages</li>
+                <li>VS Code</li>
+                <li>JavaScript (Basic)</li>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Learning Ability</li>
+                <li>German (Basic)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <p>No work experience yet – learning phase & building small web projects.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p>10x Development Student</p>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p class="about">
+                 Motivated and dedicated student learning web development.  
+        I am currently focused on improving my skills in HTML, CSS, JavaScript, and GitHub.  
+        I learn quickly, enjoy building real projects, and constantly try to improve through practice.  
+        My goal is to become a strong developer by creating modern, clean, and functional websites.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
